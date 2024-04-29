@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "allowJs": true,
+    },
+    "lib": ["es2015"],
+    "include": [
+        "src/",
+        "src/**/*.ts",
+        "src/index.test.js",
+        "app.ts",
+        "index.ts"   
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
