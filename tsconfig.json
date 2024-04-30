@@ -15,10 +15,9 @@
     "include": [
         "src/",
         "src/**/*.ts",
-        "src/index.test.js",
         "app.ts",
-        "index.ts"   
-    ],
+        "index.ts",  
+        "tests"    ],
     "exclude": [
         "node_modules"
     ]
